@@ -26,6 +26,7 @@ const Footer = () => {
             </p>
             <div className="flex items-center gap-3 mt-3">
               <a
+                aria-label="linkdin"
                 href="https://www.linkedin.com/"
                 target="blank"
                 className="w-5 md:w-[26px] h-5 md:h-[26px] border border-light-blue rounded-[32.68px] flex justify-center items-center duration-300 group hover:border-dark-gray"
@@ -33,6 +34,7 @@ const Footer = () => {
                 <LinkDinIcon />
               </a>
               <a
+                aria-label="instagram"
                 href="https://www.instagram.com/"
                 target="blank"
                 className="w-5 md:w-[26px] h-5 md:h-[26px] border border-light-blue rounded-[32.68px] flex justify-center items-center duration-300 group hover:border-dark-gray"
@@ -40,6 +42,7 @@ const Footer = () => {
                 <InstaIcon />
               </a>
               <a
+                aria-label="facebook"
                 href="http://facebook.com/"
                 target="blank"
                 className="w-5 md:w-[26px] h-5 md:h-[26px] border border-light-blue rounded-[32.68px] flex justify-center items-center duration-300 group hover:border-dark-gray"
@@ -47,6 +50,7 @@ const Footer = () => {
                 <Facebook />
               </a>
               <a
+                aria-label="twitter"
                 href="https://twitter.com/"
                 target="blank"
                 className="w-5 md:w-[26px] h-5 md:h-[26px] border border-light-blue rounded-[32.68px] flex justify-center items-center duration-300 group hover:border-dark-gray"
@@ -70,6 +74,7 @@ const Footer = () => {
                   <ul>
                     <li className="mt-4">
                       <a
+                        aria-label="linkone"
                         href={obj.href}
                         target="blank"
                         className={`font-open font-normal text-base text-dark-gray leading-normal relative z-[1] after:w-0 after:bg-light-blue after:h-[2px] after:-bottom-[2px] after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full duration-300 hover:text-light-blue ${
@@ -80,8 +85,9 @@ const Footer = () => {
                         {obj.link1}
                       </a>
                     </li>
-                    <li className={`${index === 3 ? "mt-[18px]" : ""} mt-3`}>
+                    <li className={`${index === 3 && "mt-[18px]"} mt-3`}>
                       <a
+                        aria-label="linktwo"
                         href={obj.href1}
                         target="blank"
                         className={`font-open font-normal text-base text-dark-gray leading-normal relative z-[1] after:w-0 after:bg-light-blue after:h-[2px] after:-bottom-[2px] after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full duration-300 hover:text-light-blue ${
@@ -92,8 +98,9 @@ const Footer = () => {
                         {obj.link2}
                       </a>
                     </li>
-                    <li className={`${index === 3 ? "mt-[18px]" : ""} mt-3`}>
+                    <li className={`${index === 3 && "mt-[18px]"} mt-3`}>
                       <a
+                        aria-label="linkthree"
                         href={obj.href2}
                         target="blank"
                         className={`font-open font-normal text-base text-dark-gray leading-normal relative z-[1] after:w-0 after:bg-light-blue after:h-[2px] after:-bottom-[2px] after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full duration-300 hover:text-light-blue ${
@@ -106,6 +113,7 @@ const Footer = () => {
                     </li>
                     <li className="mt-3">
                       <a
+                        aria-label="linkfour"
                         href={obj.href3}
                         target="blank"
                         className="font-open font-normal text-base text-dark-gray leading-normal relative z-[1] after:w-0 after:bg-light-blue after:h-[2px] after:-bottom-[2px] after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full duration-300 hover:text-light-blue"
