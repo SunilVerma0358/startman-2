@@ -5,7 +5,7 @@ import { FooterlinkArray } from "./common/Helper";
 const Footer = () => {
   return (
     <div>
-      <div className="max-w-[505px] md:max-w-[1164px] container pt-20 md:pt-24 lg:pt-[168px] pb-[41px]">
+      <div className="max-w-[505px] md:max-w-[1164px] container pt-20 md:pt-32 lg:pt-[168px] pb-[41px]">
         <div className="flex flex-row flex-wrap -mx-3">
           <div className="w-full lg:w-1/3 px-3">
             <a href="#!">
@@ -17,7 +17,7 @@ const Footer = () => {
                 alt="logo"
               />
             </a>
-            <p className="font-open font-normal text-sm lg:text-base text-dark-gray leading-normal mt-[17px]">
+            <p className="font-open font-normal text-sm lg:text-base text-dark-gray leading-normal mt-[17px] max-lg:max-w-[500px]">
               Stratman AI is dedicated to empowering investors with advanced
               AI-driven tools and insights. Our platform provide financial data.
             </p>
@@ -65,7 +65,7 @@ const Footer = () => {
                 <div
                   key={index}
                   className={`${
-                    index === 3 && "max-sm:w-full"
+                    index === 3 && "max-[400px]:w-full max-sm:w-1/2"
                   } max-sm:w-1/2 max-md:pt-6`}
                 >
                   <p className="font-Anek font-semibold text-base text-black leading-normal ">
@@ -78,10 +78,12 @@ const Footer = () => {
                         href={obj.href}
                         target="blank"
                         className={`font-open font-normal text-base text-dark-gray leading-normal relative z-[1] after:w-0 after:bg-light-blue after:h-[2px] after:-bottom-[2px] after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full duration-300 hover:text-light-blue ${
-                          index === 3 && "flex items-center gap-2"
+                          index === 3
+                            ? "flex items-center gap-2 hover:after:left-0 hover:after:w-0"
+                            : "hover:after:left-0 hover:after:w-full"
                         } `}
                       >
-                        {obj.icon1}
+                        <span className="w-5"> {obj.icon1}</span>
                         {obj.link1}
                       </a>
                     </li>
@@ -91,10 +93,12 @@ const Footer = () => {
                         href={obj.href1}
                         target="blank"
                         className={`font-open font-normal text-base text-dark-gray leading-normal relative z-[1] after:w-0 after:bg-light-blue after:h-[2px] after:-bottom-[2px] after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full duration-300 hover:text-light-blue ${
-                          index === 3 && "flex items-center gap-2"
+                          index === 3
+                            ? "flex items-center gap-2 hover:after:left-0 hover:after:w-0"
+                            : "hover:after:left-0 hover:after:w-full"
                         } `}
                       >
-                        {obj.icon2}
+                        <span className="w-5"> {obj.icon2}</span>
                         {obj.link2}
                       </a>
                     </li>
@@ -103,11 +107,16 @@ const Footer = () => {
                         aria-label="linkthree"
                         href={obj.href2}
                         target="blank"
-                        className={`font-open font-normal text-base text-dark-gray leading-normal relative z-[1] after:w-0 after:bg-light-blue after:h-[2px] after:-bottom-[2px] after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full duration-300 hover:text-light-blue ${
-                          index === 3 && "flex items-center gap-[9px]"
+                        className={`font-open font-normal text-base text-dark-gray leading-normal relative z-[1] after:w-0 after:bg-light-blue after:h-[2px] after:-bottom-[2px] after:left-[50%] after:duration-300 after:rounded-md after:absolute duration-300 hover:text-light-blue ${
+                          index === 3
+                            ? "flex items-center gap-[9px] hover:after:left-0 hover:after:w-0"
+                            : "hover:after:left-0 hover:after:w-full"
                         } `}
                       >
-                        {obj.icon3}
+                        <span className="w-5 flex justify-center">
+                          {" "}
+                          {obj.icon3}
+                        </span>
                         {obj.link3}
                       </a>
                     </li>
@@ -116,7 +125,11 @@ const Footer = () => {
                         aria-label="linkfour"
                         href={obj.href3}
                         target="blank"
-                        className="font-open font-normal text-base text-dark-gray leading-normal relative z-[1] after:w-0 after:bg-light-blue after:h-[2px] after:-bottom-[2px] after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full duration-300 hover:text-light-blue"
+                        className={`font-open font-normal text-base text-dark-gray leading-normal relative z-[1] after:w-0 after:bg-light-blue after:h-[2px] after:-bottom-[2px] after:left-[50%] after:duration-300 after:rounded-md after:absolute duration-300 hover:text-light-blue ${
+                          index === 3
+                            ? "hover:after:left-0 hover:after:w-0"
+                            : "hover:after:left-0 hover:after:w-full"
+                        }`}
                       >
                         {obj.link4}
                       </a>

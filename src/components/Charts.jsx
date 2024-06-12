@@ -7,10 +7,10 @@ import trendsgraphthird from "../assets/images/webp/trends-graph-third.webp";
 import trendsgraphfour from "../assets/images/webp/trends-graph-four.webp";
 const Charts = () => {
   return (
-    <div className="pt-16 md:pt-20 lg:pt-32 xl:pt-[200px]">
+    <div className="pt-16 md:pt-[130px] lg:pt-36 xl:pt-[200px]">
       <div className="container max-w-[1162px]">
-        <div className="flex flex-row flex-wrap -mx-3 items-center">
-          <div className="w-full md:w-1/2 px-3">
+        <div className="flex md:flex-row flex-wrap -mx-3 items-center flex-col-reverse">
+          <div className="w-full md:w-1/2 px-3 max-md:pt-20">
             <div className="max-w-[485px] max-md:mx-auto">
               <p className="font-open font-normal text-sm lg:text-base text-light-blue leading-normal uppercase">
                 chart analysis

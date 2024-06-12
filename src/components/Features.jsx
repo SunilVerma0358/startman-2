@@ -22,7 +22,7 @@ const Features = () => {
       <p className="font-open font-normal text-sm lg:text-base text-dark-gray leading-normal mt-2 md:mt-3">
         Our AI-powered platform offers comprehensive features, including
         real-time financial data, customized{" "}
-        <span className="lg:block">
+        <span className="md:block">
           charts, market trend analysis, and access to SEC filings.
         </span>
       </p>
