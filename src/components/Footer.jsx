@@ -28,28 +28,28 @@ const Footer = () => {
               <a
                 href="https://www.linkedin.com/"
                 target="blank"
-                className="w-[26px] h-[26px] border border-light-blue rounded-[32.68px] flex justify-center items-center duration-300 group hover:border-dark-gray"
+                className="w-5 md:w-[26px] h-5 md:h-[26px] border border-light-blue rounded-[32.68px] flex justify-center items-center duration-300 group hover:border-dark-gray"
               >
                 <LinkDinIcon />
               </a>
               <a
                 href="https://www.instagram.com/"
                 target="blank"
-                className="w-[26px] h-[26px] border border-light-blue rounded-[32.68px] flex justify-center items-center duration-300 group hover:border-dark-gray"
+                className="w-5 md:w-[26px] h-5 md:h-[26px] border border-light-blue rounded-[32.68px] flex justify-center items-center duration-300 group hover:border-dark-gray"
               >
                 <InstaIcon />
               </a>
               <a
                 href="http://facebook.com/"
                 target="blank"
-                className="w-[26px] h-[26px] border border-light-blue rounded-[32.68px] flex justify-center items-center duration-300 group hover:border-dark-gray"
+                className="w-5 md:w-[26px] h-5 md:h-[26px] border border-light-blue rounded-[32.68px] flex justify-center items-center duration-300 group hover:border-dark-gray"
               >
                 <Facebook />
               </a>
               <a
                 href="https://twitter.com/"
                 target="blank"
-                className="w-[26px] h-[26px] border border-light-blue rounded-[32.68px] flex justify-center items-center duration-300 group hover:border-dark-gray"
+                className="w-5 md:w-[26px] h-5 md:h-[26px] border border-light-blue rounded-[32.68px] flex justify-center items-center duration-300 group hover:border-dark-gray"
               >
                 <Twitter />
               </a>
