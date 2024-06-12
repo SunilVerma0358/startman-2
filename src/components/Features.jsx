@@ -7,7 +7,7 @@ import { CommonBtn } from "./common/CommonBtn";
 const Features = () => {
   return (
     <div id="features" className="container max-w-[505px] md:max-w-[1164px]">
-      <div className="rounded-[41px] bg-light-sky inline-flex items-center gap-2.5 p-[10px_31px_10px_31px]">
+      <div className="rounded-[41px] bg-light-sky inline-flex items-center gap-2.5 p-[8px_24px_8px_31px] sm:p-[10px_31px_10px_31px]">
         <span>
           <FeaturesIcon />
         </span>
@@ -28,7 +28,7 @@ const Features = () => {
       </p>
       <div className="flex flex-row flex-wrap -mx-3 pt-12 md:pt-16 lg:pt-[100px] items-center">
         <div className="md:w-1/2 w-full px-3">
-          <div className="rounded-[14px] bg-gray p-[27px_31px_67px_31px] max-w-[514px] max-md:mx-auto relative">
+          <div className="rounded-[14px] bg-gray p-[20px_24px_60px_24px] sm:p-[27px_31px_67px_31px] max-w-[514px] max-md:mx-auto relative">
             <div className="max-w-[373px]">
               <img
                 className="w-full rounded-lg shadow-[0px_0px_26.2px_0px_#00000021]"
@@ -37,7 +37,7 @@ const Features = () => {
                 src={interesttrends}
                 alt="interesttrends"
               />
-              <div className="bg-light-sky rounded-lg p-[10.23px_10.23px_6px_10.23px] absolute right-[31px] bottom-[27px]">
+              <div className="bg-light-sky rounded-lg p-[10.23px_10.23px_6px_10.23px] absolute right-6 sm:right-[31px] bottom-5 sm:bottom-[27px]">
                 <div className="max-w-[110px] lg:max-w-[155px]">
                   <img
                     className="w-full rounded-[3px]"

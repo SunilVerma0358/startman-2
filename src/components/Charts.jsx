@@ -31,9 +31,9 @@ const Charts = () => {
             </div>
           </div>
           <div className="w-full md:w-1/2 px-3 max-md:pt-16">
-            <div className="rounded-[14px] bg-gray px-6 max-w-[512px] max-h-[362px] max-md:mx-auto md:ms-auto">
-              <div className="flex gap-4 items-center">
-                <div className="-translate-y-11 flex gap-[14px] flex-col">
+            <div className="rounded-[14px] bg-gray px-5 sm:px-6 max-w-[512px] max-h-[362px] max-md:mx-auto md:ms-auto">
+              <div className="flex gap-3 sm:gap-4 items-center">
+                <div className="-translate-y-8 sm:-translate-y-11 flex gap-2 sm:gap-[14px] flex-col">
                   <div className="max-w-[224px]">
                     <img
                       className="w-full rounded-xl"
@@ -53,7 +53,7 @@ const Charts = () => {
                     />
                   </div>
                 </div>
-                <div className="translate-y-11 flex gap-[14px] flex-col">
+                <div className="translate-y-8 sm:translate-y-11 flex gap-2 sm:gap-[14px] flex-col">
                   <div className="max-w-[224px]">
                     <img
                       className="w-full rounded-xl object-cover"
