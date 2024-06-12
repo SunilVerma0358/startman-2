@@ -5,7 +5,7 @@ import { FooterlinkArray } from "./common/Helper";
 const Footer = () => {
   return (
     <div>
-      <div className="max-w-[505px] md:max-w-[1164px] container pt-20 md:pt-32 lg:pt-[168px] pb-[41px]">
+      <div className="max-w-[505px] md:max-w-[1164px] container pt-20 md:pt-24 lg:pt-[168px] pb-[41px]">
         <div className="flex flex-row flex-wrap -mx-3">
           <div className="w-full lg:w-1/3 px-3">
             <a href="#!">
@@ -68,7 +68,7 @@ const Footer = () => {
                     index === 3 && "max-[400px]:w-full max-sm:w-1/2"
                   } max-sm:w-1/2 max-md:pt-6`}
                 >
-                  <p className="font-Anek font-semibold text-base text-black leading-normal ">
+                  <p className="font-Anek font-semibold text-sm md:text-base text-black leading-normal ">
                     {obj.heading}
                   </p>
                   <ul>
@@ -77,7 +77,7 @@ const Footer = () => {
                         aria-label="linkone"
                         href={obj.href}
                         target="blank"
-                        className={`font-open font-normal text-base text-dark-gray leading-normal relative z-[1] after:w-0 after:bg-light-blue after:h-[2px] after:-bottom-[2px] after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full duration-300 hover:text-light-blue ${
+                        className={`font-open font-normal text-sm md:text-base text-dark-gray leading-normal relative z-[1] after:w-0 after:bg-light-blue after:h-[2px] after:-bottom-[2px] after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full duration-300 hover:text-light-blue ${
                           index === 3
                             ? "flex items-center gap-2 hover:after:left-0 hover:after:w-0"
                             : "hover:after:left-0 hover:after:w-full"
@@ -87,12 +87,16 @@ const Footer = () => {
                         {obj.link1}
                       </a>
                     </li>
-                    <li className={`${index === 3 && "mt-[18px]"} mt-3`}>
+                    <li
+                      className={`${
+                        index === 3 && "mt-4 sm:mt-[18px]"
+                      } mt-2 sm:mt-3`}
+                    >
                       <a
                         aria-label="linktwo"
                         href={obj.href1}
                         target="blank"
-                        className={`font-open font-normal text-base text-dark-gray leading-normal relative z-[1] after:w-0 after:bg-light-blue after:h-[2px] after:-bottom-[2px] after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full duration-300 hover:text-light-blue ${
+                        className={`font-open font-normal text-sm md:text-base text-dark-gray leading-normal relative z-[1] after:w-0 after:bg-light-blue after:h-[2px] after:-bottom-[2px] after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full duration-300 hover:text-light-blue ${
                           index === 3
                             ? "flex items-center gap-2 hover:after:left-0 hover:after:w-0"
                             : "hover:after:left-0 hover:after:w-full"
@@ -102,12 +106,16 @@ const Footer = () => {
                         {obj.link2}
                       </a>
                     </li>
-                    <li className={`${index === 3 && "mt-[18px]"} mt-3`}>
+                    <li
+                      className={`${
+                        index === 3 && "mt-4 sm:mt-[18px]"
+                      } mt-2 sm:mt-3`}
+                    >
                       <a
                         aria-label="linkthree"
                         href={obj.href2}
                         target="blank"
-                        className={`font-open font-normal text-base text-dark-gray leading-normal relative z-[1] after:w-0 after:bg-light-blue after:h-[2px] after:-bottom-[2px] after:left-[50%] after:duration-300 after:rounded-md after:absolute duration-300 hover:text-light-blue ${
+                        className={`font-open font-normal text-sm md:text-base text-dark-gray leading-normal relative z-[1] after:w-0 after:bg-light-blue after:h-[2px] after:-bottom-[2px] after:left-[50%] after:duration-300 after:rounded-md after:absolute duration-300 hover:text-light-blue ${
                           index === 3
                             ? "flex items-center gap-[9px] hover:after:left-0 hover:after:w-0"
                             : "hover:after:left-0 hover:after:w-full"
@@ -120,12 +128,12 @@ const Footer = () => {
                         {obj.link3}
                       </a>
                     </li>
-                    <li className="mt-3">
+                    <li className="mt-2 sm:mt-3">
                       <a
                         aria-label="linkfour"
                         href={obj.href3}
                         target="blank"
-                        className={`font-open font-normal text-base text-dark-gray leading-normal relative z-[1] after:w-0 after:bg-light-blue after:h-[2px] after:-bottom-[2px] after:left-[50%] after:duration-300 after:rounded-md after:absolute duration-300 hover:text-light-blue ${
+                        className={`font-open font-normal text-sm md:text-base text-dark-gray leading-normal relative z-[1] after:w-0 after:bg-light-blue after:h-[2px] after:-bottom-[2px] after:left-[50%] after:duration-300 after:rounded-md after:absolute duration-300 hover:text-light-blue ${
                           index === 3
                             ? "hover:after:left-0 hover:after:w-0"
                             : "hover:after:left-0 hover:after:w-full"
