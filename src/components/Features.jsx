@@ -15,7 +15,7 @@ const Features = () => {
           features
         </span>
       </div>
-      <h1 className="font-Anek font-semibold text-5xl lg:text-5xxl text-black !leading-[120%] mt-5">
+      <h1 className="font-Anek font-semibold text-4xl sm:text-5xl lg:text-5xxl text-black !leading-[120%] mt-5">
         Stratman AI <span className="font-[200]">helps Achieve</span>{" "}
         <span className="text-light-blue">Your Goals</span>
       </h1>
