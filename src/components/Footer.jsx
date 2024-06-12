@@ -77,7 +77,7 @@ const Footer = () => {
                         aria-label="linkone"
                         href={obj.href}
                         target="blank"
-                        className={`font-open font-normal text-sm md:text-base text-dark-gray leading-normal relative z-[1] after:w-0 after:bg-light-blue after:h-[2px] after:-bottom-[2px] after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full duration-300 hover:text-light-blue ${
+                        className={`font-open font-normal text-sm md:text-base text-dark-gray leading-normal relative z-[1] after:w-0 after:bg-light-blue after:h-[2px] after:-bottom-[2px] after:left-[50%] after:duration-300 after:rounded-md after:absolute  duration-300 hover:text-light-blue ${
                           index === 3
                             ? "flex items-center gap-2 hover:after:left-0 hover:after:w-0"
                             : "hover:after:left-0 hover:after:w-full"
@@ -96,7 +96,7 @@ const Footer = () => {
                         aria-label="linktwo"
                         href={obj.href1}
                         target="blank"
-                        className={`font-open font-normal text-sm md:text-base text-dark-gray leading-normal relative z-[1] after:w-0 after:bg-light-blue after:h-[2px] after:-bottom-[2px] after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full duration-300 hover:text-light-blue ${
+                        className={`font-open font-normal text-sm md:text-base text-dark-gray leading-normal relative z-[1] after:w-0 after:bg-light-blue after:h-[2px] after:-bottom-[2px] after:left-[50%] after:duration-300 after:rounded-md after:absolute duration-300 hover:text-light-blue ${
                           index === 3
                             ? "flex items-center gap-2 hover:after:left-0 hover:after:w-0"
                             : "hover:after:left-0 hover:after:w-full"
